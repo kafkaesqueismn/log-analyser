@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-analyser"
+version = "0.1.0"
+description = "Analyse Linux SSH auth logs for brute-force attacks and suspicious logins"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+log-analyser = "log_analyser.cli:main"
+
+[tool.setuptools]
+packages = ["log_analyser"]
