@@ -1,5 +1,7 @@
 # log-analyser
 
+[![tests](https://github.com/kafkaesqueismn/log-analyser/actions/workflows/tests.yml/badge.svg)](https://github.com/kafkaesqueismn/log-analyser/actions/workflows/tests.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-8b6fe0.svg)](LICENSE)
+
 A small, dependency-free Python CLI that analyses Linux SSH authentication logs
 (`/var/log/auth.log`, `/var/log/secure`) and reports:
 
@@ -173,3 +175,7 @@ pytest
 The generated logs are entirely fictional. Attacker addresses come from the
 RFC 5737 documentation ranges (`192.0.2.0/24`, `198.51.100.0/24`,
 `203.0.113.0/24`), which are reserved and never routed on the public internet.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
